@@ -1,23 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import Axios from './Components/Axios';
+import Hooks from './Components/Hooks';
+import Pokemon from './Components/Pokemon';
+import Products from './Components/Products';
+import echo from './images/echo.png'
+import firestick from './images/firestick.png'
 
 function App() {
+
   return (
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Products
+        name="Amazon Echo"
+        image= {echo}
+        description="Home Assistant"
+        price="39,99"                   
+      />
+
+      <Products 
+        name="Amazon Firestick"
+        image= {firestick}
+        description="4K @60FPS"
+        price="29,99"
+      />
+
+      <Hooks />
+
+      <Axios />
+      <Pokemon />
+
     </div>
   );
 }
