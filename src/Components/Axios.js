@@ -1,10 +1,10 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import axios from 'axios';
 
 
 function Axios() {
     
-  const [author, setAuthor] = useState(`Onur`);
+  const [author, setAuthor] = useState('Onur');
   const [content, setContent] = useState(`You want some Pizza ? 🍕`);
   // const [tags, setTags] = useState('');
 
@@ -26,6 +26,7 @@ function Axios() {
       <h4><i>{content}</i></h4>
       {/* <p>{tags}</p> */}
       <button className='btn_gray' onClick={fetchData}>FETCH</button>
+     
     </div>
   )
 }

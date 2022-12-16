@@ -35,6 +35,7 @@
 
 .axios {
   max-width: 80%;
+  min-height: 25vh;
 }
 
 
@@ -114,11 +115,10 @@
   padding: 15px 32px;
   font-size: 16px;
   font-weight: 600;
-  margin: 2rem 1rem 5rem 1rem;
+  margin: 1rem 1rem 5rem 1rem;
   border-radius: 15px;
   box-shadow: 2px 2px #555555, -.1em .1em .4em .2em #555555;
   
- 
 }
 
 /* .just_btn {
@@ -132,7 +132,6 @@
   box-shadow: 2px 2px #555555, -.1em .1em .4em .2em #555555;
   background-image: linear-gradient(90deg, #555555 0%, #555555 19%, #4CAF50 50%, #555555 100%);
   animation:slidebg 5s linear infinite;
-  
 }
   
 @keyframes slidebg {
