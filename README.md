@@ -1,6 +1,6 @@
 ## React Basics
 
-<img src="https://i.ibb.co/nfnkcrB/taz.png" width="280"/>
+<img src="https://i.ibb.co/nfnkcrB/taz.png" width="200"/>
 
 ## Next Steps
 
