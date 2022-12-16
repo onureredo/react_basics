@@ -29,13 +29,13 @@ function Hooks() {
     return (   
         <div className='state'>
           <h1>UseState Hook</h1>
-          <hr></hr>
+          
           {/* EXAMPLE I */}
-          <h1>My favorite Color is {color}!</h1>
+          <h2>My favorite Color is {color}!</h2>
           <button onClick={() => setColor("Red")}>RED</button>            
 
           {/* EXAMPLE II */}
-          <h1>My car is {car.brand} and It is a {car.color} {car.model} from {car.year}</h1>
+          <h2>My car is {car.brand} and It is a {car.color} {car.model} from {car.year}</h2>
           
           {/* CHANGE STATE */}
           <button onClick={updateCar}>UPDATE CAR</button>
