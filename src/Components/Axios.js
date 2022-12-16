@@ -12,8 +12,8 @@ function Axios() {
     axios.get(`https://api.quotable.io/random`)
     .then(res => {
       // console.log(res)
-      setContent(res.data.content)
       setAuthor(res.data.author)
+      setContent(res.data.content)
       // setTags(res.data.tags)
     }).catch(err => {
       console.log(err)
