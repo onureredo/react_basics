@@ -4,8 +4,8 @@ import axios from 'axios';
 
 function Axios() {
     
-  const [content, setContent] = useState('');
-  const [author, setAuthor] = useState('');
+  const [author, setAuthor] = useState(`Onur`);
+  const [content, setContent] = useState(`You want some Pizza ? 🍕`);
   // const [tags, setTags] = useState('');
 
   const fetchData = () => {
@@ -22,10 +22,10 @@ function Axios() {
   
   return (
     <div className='axios'>
-        <h1>{author}</h1>
-        <h4><i>{content}</i></h4>
-        {/* <p>{tags}</p> */}
-        <button className='btn_green' onClick={fetchData}>FETCH</button>
+      <h1>{author}</h1>
+      <h4><i>{content}</i></h4>
+      {/* <p>{tags}</p> */}
+      <button className='btn_green' onClick={fetchData}>FETCH</button>
     </div>
   )
 }

@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 
 function Hooks() {
 
-    const [color, setColor] = useState("?");
+    const [color, setColor] = useState("Black");
     // const [brand, setBrand] = useState("Ford");
     // const [model, setModel] = useState("Mustang");
     // const [year, setYear] = useState("1964");

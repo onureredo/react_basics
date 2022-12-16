@@ -11,11 +11,10 @@ function App() {
   return (
 
     <div className="App">
-
       <Products
         name="Amazon Echo"
         image= {echo}
-        description="Home Assistant"
+        description="Your Home Assistant"
         price="39,99"                   
       />
 

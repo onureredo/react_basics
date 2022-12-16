@@ -8,7 +8,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 2rem 25rem 2rem 25rem;
+  min-width: 50%;
+  margin: 5rem 20rem 5rem 20rem;
   text-align: center;
   border: 2px solid #4CAF50;
   padding: 2rem;
@@ -20,7 +21,7 @@
 }
 
 .prop_div {
-  width: 40%;
+  width: auto;
   border: 3px solid #5555552a;
   margin: 2rem;
   padding: 3rem;
@@ -33,17 +34,18 @@
 
 
 .App h1 {
+  font-size: 1.75vw;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .App h2, h3 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.5rem;  
+  font-size: 1.20vw;  
 }
 
 .App h4 {
   font-family: monospace;
-  font-size: 1.15rem;
+  font-size: 0.90vw;
 }
 
 .App button:hover {
@@ -53,7 +55,7 @@
 }
 
 .App li {
-  font-size: 1.15rem;
+  font-size: 1vw;
   margin-bottom: 0.5rem;
 }
 
@@ -61,7 +63,9 @@
   margin-bottom: 5rem;
 }
 
-
+.App img {
+  width: 75%;
+}
 
 /* BUTTONS */
 .btn_green{
