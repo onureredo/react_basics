@@ -28,7 +28,7 @@ function App() {
       <Hooks />
 
       <Axios />
-      <Pokemon />
+      {/* <Pokemon /> */}
 
     </div>
   );
