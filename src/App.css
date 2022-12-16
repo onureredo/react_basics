@@ -11,13 +11,16 @@
   min-width: 50%;
   margin: 5rem 20rem 5rem 20rem;
   text-align: center;
-  border: 2px solid #4CAF50;
+  /* border: 2px solid #4CAF50; */
+  /* box-shadow: 2px 2px olive, -.3em .2em .4em .4em olive; */
+  box-shadow: 2px 2px #4CAF50, -.1em .1em .4em .2em #4CAF50;
   padding: 2rem;
   border-radius: 50px;
 }
 
 .state {
-  margin-top: 5rem;    
+  margin-top: 5rem;
+
 }
 
 .prop_div {
@@ -26,6 +29,8 @@
   margin: 2rem;
   padding: 3rem;
   border-radius: 50px;
+  /* box-shadow: 12px 12px 2px 1px #4caf4f13; */
+  /* box-shadow: 2px 2px #4CAF50, -.3em .2em .4em .1em #4CAF50; */
 }
 
 .axios {
@@ -36,6 +41,7 @@
 .App h1 {
   font-size: 1.75vw;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
 }
 
 .App h2, h3 {
@@ -45,14 +51,9 @@
 
 .App h4 {
   font-family: monospace;
-  font-size: 0.90vw;
+  font-size: 1vw;
 }
 
-.App button:hover {
-  opacity: 70%;
-  cursor: pointer;
-  transition: all 0.35s;
-}
 
 .App li {
   font-size: 1vw;
@@ -69,7 +70,7 @@
 
 /* BUTTONS */
 .btn_green{
-  background-color: #4CAF50; /* Green */
+  /* background-color: #4CAF50; */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -78,23 +79,13 @@
   display: inline-block;
   font-size: 16px;
   font-weight: 600;
-  margin: 5rem 1rem 5rem 1rem;
-  border-radius: 15px;
-}
-
-.btn_red {
-  background-color: #f44336;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  font-size: 16px;
-  font-weight: 600;
   margin: 2rem 1rem 5rem 1rem;
   border-radius: 15px;
+  box-shadow: 2px 2px #4CAF50, -.1em .1em .4em .2em #4CAF50;
 }
 
 .btn_blue {
-  background-color: #008CBA;
+  /* background-color: #008CBA; */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -102,10 +93,22 @@
   font-weight: 600;
   margin: 2rem 1rem 5rem 1rem;
   border-radius: 15px;
+  box-shadow: 2px 2px #008CBA, -.1em .1em .4em .2em #008CBA;
+}
+
+.btn_red {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 2rem 1rem 5rem 1rem;
+  border-radius: 15px;
+  box-shadow: 2px 2px #f44336, -.1em .1em .4em .2em #f44336;
 }
 
 .btn_gray {
-  background-color: #555555;
+  /* background-color: #555555; */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -113,4 +116,37 @@
   font-weight: 600;
   margin: 2rem 1rem 5rem 1rem;
   border-radius: 15px;
+  box-shadow: 2px 2px #555555, -.1em .1em .4em .2em #555555;
+  
+ 
 }
+
+/* .just_btn {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 2rem 1rem 5rem 1rem;
+  border-radius: 15px;
+  box-shadow: 2px 2px #555555, -.1em .1em .4em .2em #555555;
+  background-image: linear-gradient(90deg, #555555 0%, #555555 19%, #4CAF50 50%, #555555 100%);
+  animation:slidebg 5s linear infinite;
+  
+}
+  
+@keyframes slidebg {
+  to {
+    background-position:20vw;
+  }
+} */
+
+
+.App button:hover {
+  transition: all 0.15s;
+  opacity: 60%;
+  cursor: pointer;
+  transition: all 0.35s;
+  
+}
+

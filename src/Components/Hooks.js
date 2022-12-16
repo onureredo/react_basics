@@ -28,7 +28,7 @@ function Hooks() {
  
     return (   
         <div className='state'>
-          <h1>UseState Hook</h1>
+          <h1 className='strasua'>UseState Hook</h1>
           
           {/* EXAMPLE I */}
           <h2>My favorite Color is {color}</h2>
@@ -42,7 +42,7 @@ function Hooks() {
           <h2>My car is {car.brand} and it's a {car.color} {car.model} from {car.year}</h2>
           
           {/* CHANGE STATE */}
-          <button className='btn_green' onClick={updateCar}>UPDATE CAR</button>
+          <button className='btn_gray' onClick={updateCar}>UPDATE CAR</button>
         </div>
       )
     }
