@@ -39,7 +39,7 @@ function Hooks() {
                      
 
           {/* EXAMPLE II */}
-          <h2>My car is {car.brand} and It is a {car.color} {car.model} from {car.year}</h2>
+          <h2>My car is {car.brand} and it's a {car.color} {car.model} from {car.year}</h2>
           
           {/* CHANGE STATE */}
           <button className='btn_green' onClick={updateCar}>UPDATE CAR</button>

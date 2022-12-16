@@ -8,10 +8,27 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 5rem 15rem 5rem 15rem;
+  margin: 2rem 25rem 2rem 25rem;
   text-align: center;
   border: 2px solid #4CAF50;
   padding: 2rem;
+  border-radius: 50px;
+}
+
+.state {
+  margin-top: 5rem;    
+}
+
+.prop_div {
+  width: 40%;
+  border: 3px solid #5555552a;
+  margin: 2rem;
+  padding: 3rem;
+  border-radius: 50px;
+}
+
+.axios {
+  max-width: 80%;
 }
 
 
@@ -44,20 +61,7 @@
   margin-bottom: 5rem;
 }
 
-.state {
-  margin-top: 5rem;  
-  
-}
 
-.prop_div {
-  border: 2px solid #4CAF50;
-  margin: 2rem;
-  padding: 5rem;
-}
-
-.axios {
-  max-width: 75%;
-}
 
 /* BUTTONS */
 .btn_green{
