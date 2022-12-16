@@ -21,11 +21,11 @@ function Axios() {
   }
   
   return (
-    <div className='green_line'>
+    <div className='axios'>
         <h1>{author}</h1>
         <h4><i>{content}</i></h4>
         {/* <p>{tags}</p> */}
-        <button onClick={fetchData}>Fetch Data</button>
+        <button className='btn_green' onClick={fetchData}>FETCH</button>
     </div>
   )
 }
