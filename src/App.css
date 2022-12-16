@@ -35,9 +35,12 @@
 
 .axios {
   max-width: 80%;
-  min-height: 35vh;
+  height: 30vh;
 }
 
+.coolstuff {
+  height: 15vh;
+}
 
 .App h1 {
   font-size: 1.75vw;

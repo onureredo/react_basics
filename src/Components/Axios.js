@@ -22,10 +22,12 @@ function Axios() {
   
   return (
     <div className='axios'>
-      <h1>{author}</h1>
-      <h4><i>{content}</i></h4>
+      <div className='coolstuff'>
+        <h1>{author}</h1>
+        <h4><i>{content}</i></h4>
+      </div>
       {/* <p>{tags}</p> */}
-      <button className='btn_gray' onClick={fetchData}>FETCH</button>
+      <button className='btn_gray' onClick={fetchData}>INSPIRE ME</button>
      
     </div>
   )

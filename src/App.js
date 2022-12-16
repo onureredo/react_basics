@@ -10,7 +10,7 @@ function App() {
 
   return (
 
-    <div className="App">
+    <div className="App">      
       <Products
         name="Amazon Echo"
         image= {echo}
@@ -28,9 +28,10 @@ function App() {
       <Hooks />
 
       <Axios />
+      
       {/* <Pokemon /> */}
-
-    </div>
+      </div>
+    
   );
 }
 
