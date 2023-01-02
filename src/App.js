@@ -1,6 +1,7 @@
 import './App.css';
+import BasicUseState from './Components/BasicUseState';
+import BasicUseEffect from './Components/BasicUseEffect';
 import Axios from './Components/Axios';
-import Hooks from './Components/Hooks';
 import Pokemon from './Components/Pokemon';
 import Products from './Components/Products';
 import echo from './images/echo.png'
@@ -11,7 +12,7 @@ function App() {
   return (
 
     <div className="App">      
-      <Products
+      {/* <Products
         name="Amazon Echo"
         image= {echo}
         description="Your Home Assistant"
@@ -25,11 +26,12 @@ function App() {
         price="29,99"
       />
 
-      <Hooks />
+      <Axios />      
+      <Pokemon /> */}
 
-      <Axios />
-      
-      <Pokemon />
+      <BasicUseState />
+      <BasicUseEffect />
+
       </div>
     
   );
