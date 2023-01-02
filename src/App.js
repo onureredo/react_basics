@@ -29,7 +29,7 @@ function App() {
 
       <Axios />
       
-      {/* <Pokemon /> */}
+      <Pokemon />
       </div>
     
   );
