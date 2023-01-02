@@ -1,11 +1,11 @@
 import './App.css';
-import BasicUseState from './Components/BasicUseState';
+// import BasicUseState from './Components/BasicUseState';
 import BasicUseEffect from './Components/BasicUseEffect';
-import Axios from './Components/Axios';
-import Pokemon from './Components/Pokemon';
-import Products from './Components/Products';
-import echo from './images/echo.png'
-import firestick from './images/firestick.png'
+// import Axios from './Components/Axios';
+// import Pokemon from './Components/Pokemon';
+// import Products from './Components/Products';
+// import echo from './images/echo.png'
+// import firestick from './images/firestick.png'
 
 function App() {
 
@@ -27,9 +27,11 @@ function App() {
       />
 
       <Axios />      
-      <Pokemon /> */}
-
+      <Pokemon /> 
       <BasicUseState />
+
+      */}
+
       <BasicUseEffect />
 
       </div>

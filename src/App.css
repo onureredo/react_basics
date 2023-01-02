@@ -124,6 +124,17 @@
   
 }
 
+.cooltext {
+  background-color: white;
+  color: black;
+  font-size: 1rem;
+  padding-left: 5px;
+  min-width: 300px;
+  min-height: 30px;
+  box-shadow: 2px 2px #4CAF50, -.1em .1em .4em .2em #4CAF50;
+  
+}
+
 /* .just_btn {
   border: none;
   color: white;
