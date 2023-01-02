@@ -12,7 +12,7 @@ function App() {
   return (
 
     <div className="App">      
-      {/* <Products
+      <Products
         name="Amazon Echo"
         image= {echo}
         description="Your Home Assistant"
@@ -26,15 +26,13 @@ function App() {
         price="29,99"
       />
 
-      <Axios />      
-      <Pokemon /> 
+      <Axios />   
+
+      {/* <Pokemon /> 
       <BasicUseState />
+      <BasicUseEffect /> */}
 
-      */}
-
-      <BasicUseEffect />
-
-      </div>
+    </div>
     
   );
 }
