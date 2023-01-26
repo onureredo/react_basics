@@ -13,14 +13,13 @@
   text-align: center;
   /* border: 2px solid #4CAF50; */
   /* box-shadow: 2px 2px olive, -.3em .2em .4em .4em olive; */
-  box-shadow: 2px 2px #4CAF50, -.1em .1em .4em .2em #4CAF50;
+  box-shadow: 2px 2px #4caf50, -0.1em 0.1em 0.4em 0.2em #4caf50;
   padding: 2rem;
   border-radius: 50px;
 }
 
 .state {
   margin-top: 5rem;
-
 }
 
 .prop_div {
@@ -45,19 +44,18 @@
 .App h1 {
   font-size: 1.75vw;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
 }
 
-.App h2, h3 {
+.App h2,
+h3 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.20vw;  
+  font-size: 1.2vw;
 }
 
 .App h4 {
   font-family: monospace;
   font-size: 1vw;
 }
-
 
 .App li {
   font-size: 1vw;
@@ -73,7 +71,7 @@
 }
 
 /* BUTTONS */
-.btn_green{
+.btn_green {
   /* background-color: #4CAF50; */
   border: none;
   color: white;
@@ -85,7 +83,7 @@
   font-weight: 600;
   margin: 2rem 1rem 5rem 1rem;
   border-radius: 15px;
-  box-shadow: 2px 2px #4CAF50, -.1em .1em .4em .2em #4CAF50;
+  box-shadow: 2px 2px #4caf50, -0.1em 0.1em 0.4em 0.2em #4caf50;
 }
 
 .btn_blue {
@@ -97,7 +95,7 @@
   font-weight: 600;
   margin: 2rem 1rem 5rem 1rem;
   border-radius: 15px;
-  box-shadow: 2px 2px #008CBA, -.1em .1em .4em .2em #008CBA;
+  box-shadow: 2px 2px #008cba, -0.1em 0.1em 0.4em 0.2em #008cba;
 }
 
 .btn_red {
@@ -108,7 +106,7 @@
   font-weight: 600;
   margin: 2rem 1rem 5rem 1rem;
   border-radius: 15px;
-  box-shadow: 2px 2px #f44336, -.1em .1em .4em .2em #f44336;
+  box-shadow: 2px 2px #f44336, -0.1em 0.1em 0.4em 0.2em #f44336;
 }
 
 .btn_gray {
@@ -120,8 +118,7 @@
   font-weight: 600;
   margin: 1rem 1rem 5rem 1rem;
   border-radius: 15px;
-  box-shadow: 2px 2px #555555, -.1em .1em .4em .2em #555555;
-  
+  box-shadow: 2px 2px #555555, -0.1em 0.1em 0.4em 0.2em #555555;
 }
 
 .cooltext {
@@ -131,8 +128,7 @@
   padding-left: 5px;
   min-width: 300px;
   min-height: 30px;
-  box-shadow: 2px 2px #4CAF50, -.1em .1em .4em .2em #4CAF50;
-  
+  box-shadow: 2px 2px #4caf50, -0.1em 0.1em 0.4em 0.2em #4caf50;
 }
 
 /* .just_btn {
@@ -154,12 +150,9 @@
   }
 } */
 
-
 .App button:hover {
   transition: all 0.15s;
   opacity: 60%;
   cursor: pointer;
   transition: all 0.35s;
-  
 }
-
