@@ -42,23 +42,23 @@
 }
 
 .App h1 {
-  font-size: 1.75vw;
+  font-size: 1.75rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .App h2,
 h3 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.2vw;
+  font-size: 1.2rem;
 }
 
 .App h4 {
   font-family: monospace;
-  font-size: 1vw;
+  font-size: 1rem;
 }
 
 .App li {
-  font-size: 1vw;
+  font-size: 1rem;
   margin-bottom: 0.5rem;
 }
 

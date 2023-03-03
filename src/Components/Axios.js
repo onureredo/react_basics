@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 
 function Axios() {
-  const [author, setAuthor] = useState("Onur");
+  const [author, setAuthor] = useState('Onur');
   const [content, setContent] = useState(`You want some Pizza ? 🍕`);
   // const [tags, setTags] = useState('');
 
@@ -21,15 +21,15 @@ function Axios() {
   };
 
   return (
-    <div className="axios">
-      <div className="coolstuff">
+    <div className='axios'>
+      <div className='coolstuff'>
         <h1>{author}</h1>
         <h4>
           <i>"{content}"</i>
         </h4>
       </div>
       {/* <p>{tags}</p> */}
-      <button className="btn_gray" onClick={fetchData}>
+      <button className='btn_gray' onClick={fetchData}>
         INSPIRE ME
       </button>
     </div>

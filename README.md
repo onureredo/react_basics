@@ -2,10 +2,6 @@
 
 <img src="https://i.ibb.co/nfnkcrB/taz.png" width="100"/>
 
-## Next Steps
-
-- useEffect
--
 
 ## Docs and resources:
 

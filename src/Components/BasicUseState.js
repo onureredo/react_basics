@@ -1,46 +1,46 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 function Hooks() {
-  const [color, setColor] = useState("Black");
+  const [color, setColor] = useState('Black');
   // const [brand, setBrand] = useState("Ford");
   // const [model, setModel] = useState("Mustang");
   // const [year, setYear] = useState("1964");
 
   //OR WE CAN JUST USE ONE STATE AND INCLUDE ALL OF THESE AS AN OBJECT
   const [car, setCar] = useState({
-    brand: "Ford",
-    model: "Mustang",
+    brand: 'Ford',
+    model: 'Mustang',
     year: 1964,
-    color: "red",
+    color: 'red',
   });
 
   //UPDATING OBJECTS IN STATE
   const updateCar = () => {
-    setCar((prevState) => {
+    setCar((prev) => {
       return {
-        ...prevState,
-        color: "Black",
+        ...prev,
+        color: 'Black',
         year: 1978,
       };
     });
   };
 
   return (
-    <div className="state">
-      <h1 className="strasua">UseState Hook</h1>
+    <div className='state'>
+      <h1 className='strasua'>UseState Hook</h1>
 
       {/* EXAMPLE I */}
       <h2>My favorite Color is {color}</h2>
-      <button className="btn_green" onClick={() => setColor("Green")}>
+      <button className='btn_green' onClick={() => setColor('Green')}>
         GREEN
       </button>
-      <button className="btn_blue" onClick={() => setColor("Blue")}>
+      <button className='btn_blue' onClick={() => setColor('Blue')}>
         BLUE
       </button>
-      <button className="btn_red" onClick={() => setColor("Red")}>
+      <button className='btn_red' onClick={() => setColor('Red')}>
         RED
       </button>
-      <button className="btn_gray" onClick={() => setColor("Gray")}>
+      <button className='btn_gray' onClick={() => setColor('Gray')}>
         GRAY
       </button>
 
@@ -50,7 +50,7 @@ function Hooks() {
       </h2>
 
       {/* CHANGE STATE */}
-      <button className="btn_gray" onClick={updateCar}>
+      <button className='btn_gray' onClick={updateCar}>
         UPDATE CAR
       </button>
     </div>
