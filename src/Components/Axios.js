@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import axios from 'axios';
 
 function Axios() {
@@ -10,7 +10,6 @@ function Axios() {
     axios
       .get(`https://api.quotable.io/random`)
       .then((res) => {
-        console.log(res);
         setAuthor(res.data.author);
         setContent(res.data.content);
         // setTags(res.data.tags)
